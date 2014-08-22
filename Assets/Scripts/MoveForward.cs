@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-//[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class MoveForward : MonoBehaviour
 {
     public float speed = .3f;
@@ -14,12 +14,12 @@ public class MoveForward : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-        //if (touching)
+        if (touching)
 	    rigidbody2D.velocity = new Vector2(this.transform.localScale.x * -1, 0) * speed;
 	}
 
-    //void OnCollisionStay2D(Collision2D c)
-    //{
-    //    touching = true;
-    //}
+    void OnCollisionStay2D(Collision2D c)
+    {
+        touching = true;
+    }
 }

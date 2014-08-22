@@ -17,7 +17,7 @@ public class GameMaster : MonoBehaviour
     {
         Gizmos.color = color;
         Gizmos.DrawCube(transform.position, size);
-        //targets = FindObjectsOfType<Spawner>().ToList();
+        targets = FindObjectsOfType<Spawner>().ToList();
         foreach (var t in targets)
         {
             Gizmos.DrawLine(transform.position, t.transform.position);

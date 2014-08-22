@@ -3,6 +3,11 @@ guid: da1bf3aaffe5f66459724b2b428db5eb
 TextureImporter:
   fileIDToRecycleName:
     21300000: 01_cat
+    21300002: 01_cat_0
+    21300004: 01_cat_1
+    21300006: 01_cat_2
+    21300008: 01_cat_3
+    21300010: 01_cat_4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -32,7 +37,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -43,6 +48,56 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: 01_cat_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 576
+        width: 118
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 01_cat_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 390
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 01_cat_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 192
+        width: 91
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 01_cat_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 96
+        width: 91
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 01_cat_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 90
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

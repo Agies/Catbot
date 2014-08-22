@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
 	            rigidbody2D.AddForce(new Vector2(moving, 0) * speed);
 	            if (transform.localScale.x != moving)
 	            {
-	                //transform.localScale = new Vector3(moving, 1, 1);
+	                transform.localScale = new Vector3(moving, 1, 1);
 	            }
 	        }
             if (velocityX > maxSpeed)
