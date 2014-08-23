@@ -5,7 +5,7 @@ using System.Collections;
 public class Walk : MonoBehaviour
 {
     public float speed = .3f;
-    public bool touching = false;
+    private bool touching = false;
 
     // Use this for initialization
 	void Start () {
@@ -15,7 +15,7 @@ public class Walk : MonoBehaviour
 	// Update is called once per frame
 	void Update () {
         if (touching)
-	    rigidbody2D.velocity = new Vector2(this.transform.localScale.x * -1, 0) * speed;
+        rigidbody2D.velocity = new Vector2(this.transform.localScale.x * -1, rigidbody2D.velocity.y) * speed;
 	}
 
     void OnCollisionStay2D(Collision2D c)
