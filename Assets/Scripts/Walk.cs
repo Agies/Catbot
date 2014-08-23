@@ -2,7 +2,7 @@
 using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class MoveForward : MonoBehaviour
+public class Walk : MonoBehaviour
 {
     public float speed = .3f;
     public bool touching = false;
